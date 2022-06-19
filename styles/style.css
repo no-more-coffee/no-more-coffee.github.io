@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.first-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.main {
+  padding: 0 20px 0 60px;
+}
+
+.content.side section {
+  background: #ECECEC;
+  padding: 20px;
+  margin: 0 20px 20px;
+}
+
+h1, h2 {
+  color: coral;
+  font-family: Roboto-Light;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.item {
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+#name {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#position {
+  font-family: Roboto-Bold;
+  margin-top: 0;
+}
+
+#main-photo {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 16px;
+}
+
+#photo-section {
+  text-align: center;
+}
+
+.year {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.company {
+  color: dimgrey;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.columns {
+  display: grid;
+}
+
+.columns.first {
+  grid-template-columns: 1fr 3fr;
+}
+
+.columns.second {
+  grid-template-columns: 1fr 3fr;
+  /*grid-template-columns: 1fr 3fr 2fr;*/
+}
+
+.project {
+  font-weight: bold;
+}
+
+section {
+  padding-bottom: 20px;
+}
