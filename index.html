@@ -5,77 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Vladimir Okonechnikov</title>
 
-  <style id="namefont-definition">@font-face {
-    font-family: "Roboto-Light";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Light.ttf") format("truetype");
-  }
-  </style>
-  <style id="titlefont-definition">@font-face {
-    font-family: "Roboto-Regular";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-  }
-  </style>
-  <style id="font-definition">@font-face {
-    font-family: "Roboto-Light";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Light.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-LightItalic";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-Regular";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-Bold";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-Italic";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-BoldItalic";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-ExtraBold";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-ExtraBold.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: "Roboto-ExtraBoldItalic";
-    src: url("https://www.cv-template.com/fonts/Roboto/Roboto-ExtraBoldItalic.ttf") format("truetype");
-  }
-  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,light,bold,thin">
   <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
 
 <div class="first-page">
-  <div class="main header">
-    <section id="name-position">
+
+  <div class="side">
+
+    <section id="photo-section" class="header">
+      <img id="main-photo" alt="photo" src="images/main-photo.JPG">
+    </section>
+
+    <section class="content">
+      <h2>Skills</h2>
+
+      <p>Programming Languages</p>
+      <ul>
+        <li>Python</li>
+        <li>JS</li>
+        <li>Java</li>
+        <li>C</li>
+      </ul>
+
+      <p>Tools</p>
+      <ul>
+        <li>asyncio</li>
+        <li>RabbitMQ</li>
+        <li>Redis</li>
+        <li>aiohttp</li>
+        <li>Django</li>
+        <li>Celery</li>
+      </ul>
+
+      <p>Other</p>
+      <ul>
+        <li>Linux</li>
+        <li>Git</li>
+        <li>RESTful WebServices</li>
+        <li>React</li>
+        <li>BPMN</li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <h2>Contact</h2>
+
+      <ul>
+        <li>mail: <a href="mailto:okonechnikov.v@yandex.com">okonechnikov.v@yandex.com</a></li>
+        <li>telegram: <a href="https://t.me/okonechnikov_v">@okonechnikov_v</a></li>
+        <li>linkedin: <a href="https://www.linkedin.com/in/vladimir-okonechnikov/">vladimir-okonechnikov</a></li>
+        <li>github: <a href="https://github.com/no-more-coffee">no-more-coffee</a></li>
+        <li>Moscow, Moscow Region</li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <h2>Interests</h2>
+
+      <ul>
+        <li>Jazz dancing</li>
+        <li>Jazz music</li>
+        <li>Saxophone</li>
+      </ul>
+    </section>
+
+  </div>
+
+
+  <div class="main">
+
+    <section id="name-position" class="header">
       <h1 id="name">Vladimir Okonechnikov</h1>
       <h3 id="position">Python Backend Developer</h3>
     </section>
-  </div>
 
-  <div class="side header">
-    <section id="photo-section">
-      <img id="main-photo" alt="photo" src="images/main-photo.JPG">
-    </section>
-  </div>
-
-  <div class="main content">
-    <section>
+    <section class="content">
       <h2>Profile</h2>
 
       <p>Started as a programmer in <strong>2010</strong>.
@@ -85,11 +92,11 @@
       <p>Trying to keep out of financial, marketing and data analysis services.
     </section>
 
-    <section>
+    <section class="content">
       <h2>Experience</h2>
 
       <div class="item columns first">
-        <h4 class="year">2021 - present</h4>
+        <h4 class="year">2021 - </h4>
         <div>
           <p><span class="company">Ivideon</span> - Cloud video surveillance and analytics</p>
           <p><strong>Python Backend Developer</strong></p>
@@ -125,7 +132,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="content">
       <h2>Education</h2>
 
       <div class="item columns first">
@@ -149,51 +156,6 @@
 
   </div>
 
-  <div class="side content">
-    <section>
-      <h2>Skills</h2>
-
-      <p>Programming Languages</p>
-      <ul>
-        <li>Python</li>
-        <li>JS</li>
-        <li>Java</li>
-        <li>C</li>
-      </ul>
-
-      <p>Tools</p>
-      <ul>
-        <li>asyncio</li>
-        <li>RabbitMQ</li>
-        <li>Redis</li>
-        <li>aiohttp</li>
-        <li>Django</li>
-        <li>Celery</li>
-      </ul>
-
-      <p>Other</p>
-      <ul>
-        <li>Linux</li>
-        <li>Git</li>
-        <li>RESTful WebServices</li>
-        <li>React</li>
-        <li>BPMN</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-
-      <ul>
-        <li>mail: <a href="mailto:okonechnikov.v@yandex.com">okonechnikov.v@yandex.com</a></li>
-        <li>telegram: <a href="https://t.me/okonechnikov_v">@okonechnikov_v</a></li>
-        <li>linkedin: <a href="https://www.linkedin.com/in/vladimir-okonechnikov/">vladimir-okonechnikov</a></li>
-        <li>github: <a href="https://github.com/no-more-coffee">no-more-coffee</a></li>
-        <li>Moscow, Moscow Region</li>
-      </ul>
-    </section>
-
-  </div>
 </div>
 
 <div class="second-page">
@@ -322,16 +284,6 @@
         </div>
       </div>
 
-    </section>
-
-    <section>
-      <h2>Interests</h2>
-
-      <ul>
-        <li>Jazz dancing</li>
-        <li>Jazz music</li>
-        <li>Playing saxophone</li>
-      </ul>
     </section>
 
   </div>
