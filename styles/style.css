@@ -123,6 +123,16 @@ section {
   break-inside: avoid;
 }
 
+.material-icons.md-small {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.svg-icon {
+  height: 12px;
+  vertical-align: middle;
+}
+
 @media print {
   body {
     background-color: #FFF;
